@@ -281,10 +281,6 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
-.audience-images__img-wrapper:nth-child(2) {
-  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
-  border-radius: 8px;
-}
 
 h5 {
   width: 250x;
@@ -324,7 +320,7 @@ h5 {
     font-size: 56px;
     line-height: 56px;
     letter-spacing: -0.5px;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
   }
   .audience__description {
     height: 72px;
@@ -379,6 +375,7 @@ h5 {
   height: 80px;
   font-weight: 700;
   font-size: 40px;
+  line-height: 40px;
   letter-spacing: -0.25px;
   text-align: center;
   margin: auto;
@@ -415,7 +412,7 @@ h5 {
   background-color: #ffffff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
-  margin: 0 15px 12px 0;
+  margin: 0 15px 12px 1px;
   text-align: center;
   font-size: 18px;
   line-height: 13px;
