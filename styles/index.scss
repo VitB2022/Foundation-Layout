@@ -1,0 +1,30 @@
+@import 'common.scss';
+@import 'header.scss';
+@import 'headline.scss';
+@import 'audiences.scss';
+@import 'order.scss';
+@import 'footer.scss';
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #2B292D;
+}
+
+.page {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width: 1400px) {
+    .page {
+        width: 1400px;
+        margin: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}

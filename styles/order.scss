@@ -1,0 +1,116 @@
+// Order
+.order {
+    height: 827px;
+    background-color: #F4F5F7;
+    &__content {
+        margin: 0 15px;
+    }
+    &__image {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    &__banner {
+        width: 200px;
+        height: 220px;
+        margin: 50px 60px 0 60px;
+    }
+    &__title {
+        width: 290px;
+        height: 80px;
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: -0.25px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+    &__description {
+        width: 290px;
+        height: 167px;
+        font-size: 22px;
+        line-height: 32px;
+        margin: auto;
+    }
+    &__actions {
+        margin-top: 40px;
+    }
+    &__conditions {
+        width: 290px;
+        height: 44px;
+        font-size: 14px;
+        line-height: 22px;
+        color: rgba(43, 41, 45, 0.6);
+        margin: 0 15px 50px 15px;
+        margin: auto;
+        padding-top: 10px;
+    }
+}
+
+.block-form__email {
+    text-align: center;
+}
+
+.block-form__input {
+    width: 100%;
+    height: 48px;
+    background-color: #ffffff;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 2px;
+    margin: 0 15px 12px 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 13px;
+    color: #2B292D;
+}
+
+@media screen and (min-width: 1400px) {
+    // Order
+    .order {
+        height: 441px;
+        &__content {
+            height: 441px;
+            display: flex;
+        }
+        &__banner {
+            width: 269px;
+            height: 296px;
+            margin: 73px 121px 72px 224px;
+        }
+        &__title {
+            width: 555px;
+            height: 48px;
+            margin: 106px 229px 12px 0;
+            text-align: left;
+        }
+        &__description {
+            width: 555px;
+            height: 64px;
+            margin: 0 230px 26px 0;
+        }
+        &__button {
+            width: 160px;
+            margin: 0 228px 10px 0;
+        }
+        &__conditions {
+            width: 100%;
+            height: 22px;
+            margin: 0;
+        }
+    }
+    .form-email__input {
+        width: 385px;
+        margin: 0 10px 10px 0;
+        text-align: left;
+        padding-left: 15px;
+    }
+    .block-form {
+        &__input {
+            width: 385px;
+            text-align: left;
+            padding-left: 15px;
+        }
+        &__email {
+            display: flex;
+        }
+    }
+}
