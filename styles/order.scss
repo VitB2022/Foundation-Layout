@@ -89,7 +89,8 @@
         }
         &__button {
             width: 160px;
-            margin: 0 228px 10px 0;
+            margin: 0;
+            padding: 0;
         }
         &__conditions {
             width: 100%;
@@ -101,11 +102,12 @@
             margin-top: 0;
         }
     }
-    .form-email__input {}
     .block-form {
         &__input {
             width: 385px;
             text-align: center;
+            padding: 0;
+            margin-right: 10px;
         }
         &__email {
             display: flex;

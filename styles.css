@@ -448,7 +448,8 @@ h5 {
   }
   .order__button {
     width: 160px;
-    margin: 0 228px 10px 0;
+    margin: 0;
+    padding: 0;
   }
   .order__conditions {
     width: 100%;
@@ -462,6 +463,8 @@ h5 {
   .block-form__input {
     width: 385px;
     text-align: center;
+    padding: 0;
+    margin-right: 10px;
   }
   .block-form__email {
     display: flex;
