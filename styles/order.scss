@@ -97,17 +97,11 @@
             margin: 0;
         }
     }
-    .form-email__input {
-        width: 385px;
-        margin: 0 10px 10px 0;
-        text-align: left;
-        padding-left: 15px;
-    }
+    .form-email__input {}
     .block-form {
         &__input {
             width: 385px;
-            text-align: left;
-            padding-left: 15px;
+            text-align: center;
         }
         &__email {
             display: flex;
