@@ -503,7 +503,7 @@ h5 {
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
+  margin: 31px 15px 0 15px;
   display: flex;
   justify-content: center;
 }
@@ -577,6 +577,7 @@ h5 {
 .logo-vertical__image {
   width: 60px;
   height: 60px;
+  border-radius: 14px;
 }
 .logo-vertical__name {
   font-weight: 700;
