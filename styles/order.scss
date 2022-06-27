@@ -16,7 +16,6 @@
     }
     &__title {
         width: 290px;
-        height: 80px;
         font-weight: 700;
         font-size: 40px;
         line-height: 40px;
@@ -69,9 +68,12 @@
     .order {
         height: 441px;
         &__content {
-            height: 441px;
             display: flex;
             margin: 0;
+        }
+        &__image {
+            width: 616px;
+            margin-bottom: 0;
         }
         &__banner {
             width: 269px;
