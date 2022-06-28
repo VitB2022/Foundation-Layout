@@ -380,13 +380,12 @@ h5 {
   margin: 50px 60px 0 60px;
 }
 .order__title {
-  width: 290px;
+  display: block;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.25px;
   text-align: center;
-  margin: auto;
   margin-bottom: 18px;
 }
 .order__description {
