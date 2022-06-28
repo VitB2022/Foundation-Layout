@@ -231,14 +231,12 @@
 }
 .audience__topic {
   display: inline-block;
-  height: 34px;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
   margin-bottom: 17px;
 }
 .audience__title {
-  height: 80px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
@@ -247,7 +245,6 @@
   margin-bottom: 18px;
 }
 .audience__description {
-  height: 136px;
   font-size: 24px;
   line-height: 34px;
   margin: auto;
@@ -293,7 +290,6 @@
 }
 .audience-cards__name {
   display: block;
-  height: 28px;
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
