@@ -305,11 +305,9 @@
     flex-direction: column;
     align-items: center;
     margin-top: 108px;
-    text-align: center;
     padding-top: 0;
   }
   .audience__topic {
-    text-align: center;
     font-size: 22px;
     line-height: 34px;
     font-weight: 700;
@@ -317,7 +315,6 @@
   }
   .audience__title {
     width: 555px;
-    height: 112px;
     font-weight: 700;
     font-size: 56px;
     line-height: 56px;
@@ -325,7 +322,6 @@
     margin-bottom: 30px;
   }
   .audience__description {
-    height: 72px;
     font-size: 24px;
     line-height: 34px;
     width: 555px;
