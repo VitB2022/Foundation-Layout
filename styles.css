@@ -429,11 +429,13 @@
   }
   .order__title {
     width: 555px;
+    height: 48px;
     margin: 106px 229px 12px 0;
     text-align: left;
   }
   .order__description {
     width: 555px;
+    height: 64px;
     margin: 0 230px 26px 0;
   }
   .order__button {
@@ -443,6 +445,7 @@
   }
   .order__conditions {
     width: 100%;
+    height: 22px;
     margin: 0;
     padding: 0;
   }
