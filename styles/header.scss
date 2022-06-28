@@ -1,13 +1,15 @@
 .header {
+    display: flex;
+    align-items: center;
     min-width: 320px;
     height: 64px;
     background-color: #fff;
-    display: flex;
-    align-items: center;
     padding-left: 15px;
+    
     &__button {
         display: none;
     }
+    
     &__menu-button {
         width: 58px;
         border: none;
@@ -16,10 +18,11 @@
         margin-left: auto;
         background: transparent;
     }
+   
     &__menu-icon {
+        display: inline-block;
         width: 18px;
         height: 13px;
-        display: inline-block;
         background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
     }
 }
@@ -28,19 +31,23 @@
     display: flex;
     align-items: center;
     margin-top: 2px;
+   
     &__text {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+   
     &__name {
         font-size: 20px;
         line-height: 25px;
         font-weight: 700;
     }
+    
     &__description {
         display: none;
     }
+    
     &__image {
         width: 48px;
         height: 48px;
@@ -54,21 +61,26 @@
 }
 
 @media screen and (min-width: 1400px) {
+   
     .header {
+        display: flex;
         width: 1140px;
         height: 62px;
         margin: auto;
-        display: flex;
         background-color: #F3C6BD;
+        
         &__menu-button {
             display: none;
         }
+        
         &__button {
             display: block;
             width: 160px;
         }
     }
+   
     .logo {
+        
         &__description {
             display: block;
             font-size: 18px;
@@ -76,6 +88,7 @@
             color: #2B292D;
             opacity: 0.6;
         }
+        
         &__image {
             width: 60px;
             height: 60px;
@@ -83,23 +96,28 @@
             border-radius: 14px;
         }
     }
+    
     .navigation {
         display: block;
         margin-left: auto;
         margin-top: 7px;
         margin-right: 75px;
+        
         &__item {
             color: #2B292D;
             text-decoration: none;
             line-height: 25px;
             margin-right: 50px;
         }
+        
         &__item_selected {
             font-weight: 700;
         }
+       
         &__item:last-child {
             margin-right: 0;
         }
+        
         &__arrow {
             display: inline-block;
             width: 8px;

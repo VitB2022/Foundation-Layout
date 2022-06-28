@@ -1,20 +1,23 @@
 .audience {
     height: 1808px;
     background-color: rgba(0, 161, 198, 0.07);
+    
     &__content {
         padding-top: 50px;
         text-align: center;
         margin: 0 15px;
     }
+    
     &__topic {
+        display: inline-block;
         width: 290px;
         height: 34px;
         font-weight: 700;
         font-size: 22px;
         line-height: 34px;
-        display: inline-block;
         margin-bottom: 17px;
     }
+    
     &__title {
         width: 290px;
         height: 80px;
@@ -25,6 +28,7 @@
         margin: auto;
         margin-bottom: 18px;
     }
+    
     &__description {
         width: 290px;
         height: 136px;
@@ -33,6 +37,7 @@
         margin: auto;
         margin-bottom: 30px;
     }
+    
     &__learn-more-btn {
         width: 100%;
         color: #000000;
@@ -46,17 +51,20 @@
         margin-top: 12px;
         margin-bottom: 40px;
     }
+    
     &__images {
         margin: 0 15px;
     }
 }
 
 .audience-images {
+    
     &__img {
         width: 138px;
         height: 195px;
         margin-top: 22px;
     }
+    
     &__wrapper {
         margin: auto;
         margin-bottom: 15px;
@@ -67,10 +75,12 @@
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
         border-radius: 8px;
     }
+    
     &__wrapper:hover {
         background-color: #3141C5;
         color: #FFFFFF;
         box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
     }
 }
 
@@ -83,8 +93,10 @@ h5 {
 }
 
 @media screen and (min-width: 1400px) {
+   
     .audience {
         height: 983px;
+        
         &__content {
             display: flex;
             flex-direction: column;
@@ -93,6 +105,7 @@ h5 {
             text-align: center;
             padding-top: 0;
         }
+       
         &__topic {
             text-align: center;
             font-size: 22px;
@@ -100,6 +113,7 @@ h5 {
             font-weight: 700;
             margin-bottom: 24px;
         }
+        
         &__title {
             width: 555px;
             height: 112px;
@@ -109,6 +123,7 @@ h5 {
             letter-spacing: -0.5px;
             margin-bottom: 30px;
         }
+        
         &__description {
             height: 72px;
             font-size: 24px;
@@ -117,12 +132,15 @@ h5 {
             margin: 0;
             margin-bottom: 34px;
         }
+       
         &__actions {
             display: flex;
         }
+       
         &__button {
             width: 160px;
         }
+       
         &__learn-more-btn {
             width: 158px;
             margin-left: 10px;
@@ -130,13 +148,16 @@ h5 {
             margin-bottom: 0;
         }
     }
+   
     .audience-images {
         display: flex;
         margin-top: 111px;
+        
         &__wrapper {
             width: 262px;
             margin-right: 30px;
         }
+        
         &__wrapper:last-child {
             margin-right: 0;
         }
