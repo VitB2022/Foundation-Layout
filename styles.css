@@ -378,17 +378,14 @@
   margin-bottom: 18px;
 }
 .order__description {
-  width: 290px;
   height: 167px;
   font-size: 22px;
   line-height: 32px;
-  margin: auto;
 }
 .order__actions {
   margin-top: 40px;
 }
 .order__conditions {
-  width: 290px;
   height: 44px;
   font-size: 14px;
   line-height: 22px;
