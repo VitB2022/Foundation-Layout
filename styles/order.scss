@@ -1,131 +1,129 @@
 .order {
-    height: 827px;
-    background-color: #F4F5F7;
+  height: 827px;
+  background-color: #f4f5f7;
 
-    &__content {
-        margin: 0 15px;
-    }
+  &__content {
+    margin: 0 15px;
+  }
 
-    &__image {
-        text-align: center;
-        margin-bottom: 40px;
-    }
+  &__image {
+    text-align: center;
+    margin-bottom: 40px;
+  }
 
-    &__banner {
-        width: 200px;
-        height: 220px;
-        margin: 50px 60px 0 60px;
-    }
+  &__banner {
+    width: 200px;
+    height: 220px;
+    margin: 50px 60px 0 60px;
+  }
 
-    &__title {
-        display: block;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 40px;
-        letter-spacing: -0.25px;
-        text-align: center;
-        margin-bottom: 18px;
-    }
+  &__title {
+    display: block;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    margin-bottom: 18px;
+  }
 
-    &__description {
-        font-size: 22px;
-        line-height: 32px;
-    }
+  &__description {
+    font-size: 22px;
+    line-height: 32px;
+  }
 
-    &__actions {
-        margin-top: 40px;
-    }
+  &__actions {
+    margin-top: 40px;
+  }
 
-    &__conditions {
-        font-size: 14px;
-        line-height: 22px;
-        color: rgba(43, 41, 45, 0.6);
-        margin: 0 15px 50px 15px;
-        margin: auto;
-        padding-top: 10px;
-    }
+  &__conditions {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(43, 41, 45, 0.6);
+    margin: 0 15px 50px 15px;
+    margin: auto;
+    padding-top: 10px;
+  }
 }
 
 .block-form__email {
-    text-align: center;
+  text-align: center;
 }
 
 .block-form__input {
-    width: 100%;
-    height: 48px;
-    background-color: #ffffff;
-    border: 1px solid rgba(43, 41, 45, 0.2);
-    border-radius: 2px;
-    margin: 0 15px 12px 1px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 13px;
-    color: #2B292D;
+  width: 100%;
+  height: 48px;
+  background-color: #ffffff;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 2px;
+  margin: 0 15px 12px 1px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 13px;
+  color: #2b292d;
 }
 
 @media screen and (min-width: 1400px) {
-    
-    .order {
-        height: 441px;
-        
-        &__content {
-            display: flex;
-            margin: 0;
-        }
-        
-        &__image {
-            width: 616px;
-            margin-bottom: 0;
-        }
-        
-        &__banner {
-            width: 269px;
-            height: 296px;
-            margin: 73px 121px 72px 224px;
-        }
-        
-        &__title {
-            width: 555px;
-            height: 48px;
-            margin: 106px 229px 12px 0;
-            text-align: left;
-        }
-        
-        &__description {
-            width: 555px;
-            height: 64px;
-            margin: 0 230px 26px 0;
-        }
-       
-        &__button {
-            width: 160px;
-            margin: 0;
-            padding: 0;
-        }
-        
-        &__conditions {
-            width: 100%;
-            height: 22px;
-            margin: 0;
-            padding: 0;
-        }
-        
-        &__actions {
-            margin: 0;
-        }
+  .order {
+    height: 441px;
+
+    &__content {
+      display: flex;
+      margin: 0;
     }
-   
-    .block-form {
-        
-        &__input {
-            width: 385px;
-            text-align: center;
-            padding: 0;
-            margin-right: 10px;
-        }
-        
-        &__email {
-            display: flex;
-        }
+
+    &__image {
+      width: 616px;
+      margin-bottom: 0;
     }
+
+    &__banner {
+      width: 269px;
+      height: 296px;
+      margin: 73px 121px 72px 224px;
+    }
+
+    &__title {
+      width: 555px;
+      height: 48px;
+      margin: 106px 229px 12px 0;
+      text-align: left;
+    }
+
+    &__description {
+      width: 555px;
+      height: 64px;
+      margin: 0 230px 26px 0;
+    }
+
+    &__button {
+      width: 160px;
+      margin: 0;
+      padding: 0;
+    }
+
+    &__conditions {
+      width: 100%;
+      height: 22px;
+      margin: 0;
+      padding: 0;
+    }
+
+    &__actions {
+      margin: 0;
+    }
+  }
+
+  .block-form {
+    &__input {
+      width: 385px;
+      text-align: center;
+      padding: 0;
+      margin-right: 10px;
+    }
+
+    &__email {
+      display: flex;
+    }
+  }
 }
