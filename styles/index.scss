@@ -4,6 +4,7 @@
 @import 'audiences.scss';
 @import 'order.scss';
 @import 'footer.scss';
+@import 'variables.scss';
 
 * {
   box-sizing: border-box;
@@ -12,7 +13,7 @@
 html {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
-  color: #2b292d;
+  color: $base-font-color;
 }
 
 .page {
@@ -22,10 +23,10 @@ html {
 
 @media screen and (min-width: 1400px) {
   .page {
+    display: flex;
+    flex-direction: column;
     width: 1400px;
     margin: auto;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
   }
 }

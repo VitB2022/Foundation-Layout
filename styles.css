@@ -1,16 +1,16 @@
 .top-section {
-  background-color: #F3C6BD;
+  background-color: #f3c6bd;
 }
 
 @media screen and (min-width: 1400px) {
   .top-section {
     height: 710px;
-    background-color: #F3C6BD;
+    background-color: #f3c6bd;
     padding-top: 39px;
   }
 }
 .action-button {
-  background-color: #3040C4;
+  background-color: #3040c4;
   color: #fff;
   width: 100%;
   height: 48px;
@@ -82,7 +82,7 @@
     width: 1140px;
     height: 62px;
     margin: auto;
-    background-color: #F3C6BD;
+    background-color: #f3c6bd;
   }
   .header__menu-button {
     display: none;
@@ -95,7 +95,7 @@
     display: block;
     font-size: 18px;
     line-height: 25px;
-    color: #2B292D;
+    color: #2b292d;
     opacity: 0.6;
   }
   .logo__image {
@@ -111,7 +111,7 @@
     margin-right: 75px;
   }
   .navigation__item {
-    color: #2B292D;
+    color: #2b292d;
     text-decoration: none;
     line-height: 25px;
     margin-right: 50px;
@@ -153,7 +153,7 @@
   margin-top: 30px;
 }
 .headline__learn-more-btn {
-  color: #3040C4;
+  color: #3040c4;
   background-color: #fff;
   width: 100%;
   height: 48px;
@@ -277,14 +277,14 @@
   margin-bottom: 15px;
   width: 290px;
   height: 300px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
 .audience-cards__wrapper:hover {
-  background-color: #3141C5;
-  color: #FFFFFF;
+  background-color: #3141c5;
+  color: #ffffff;
   box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -354,7 +354,7 @@
 }
 .order {
   height: 827px;
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
 .order__content {
   margin: 0 15px;
@@ -407,7 +407,7 @@
   text-align: center;
   font-size: 18px;
   line-height: 13px;
-  color: #2B292D;
+  color: #2b292d;
 }
 
 @media screen and (min-width: 1400px) {
@@ -476,7 +476,7 @@
   color: rgba(43, 41, 45, 0.6);
 }
 .footer__line {
-  border-top: 1px solid #2B292D;
+  border-top: 1px solid #2b292d;
   width: 100%;
   opacity: 0.1;
   margin: 0;
@@ -519,7 +519,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  color: #2B292D;
+  color: #2b292d;
   margin: 0;
 }
 .nav-links__list {
@@ -650,7 +650,7 @@
 html {
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
-  color: #2B292D;
+  color: #2b292d;
 }
 
 .page {
@@ -660,11 +660,11 @@ html {
 
 @media screen and (min-width: 1400px) {
   .page {
+    display: flex;
+    flex-direction: column;
     width: 1400px;
     margin: auto;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
   }
 }
 
