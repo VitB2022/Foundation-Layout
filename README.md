@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-### [Site link](https://github.com/VitB2022/resp-layout)
+### [Site link](https://vitb2022.github.io/resp-layout/)
 
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
