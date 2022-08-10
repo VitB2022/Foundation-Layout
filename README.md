@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Foundation Layout
 
 ### [Site link](https://vitb2022.github.io/resp-layout/)
 
