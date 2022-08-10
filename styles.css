@@ -408,6 +408,7 @@
   font-size: 18px;
   line-height: 13px;
   color: #2b292d;
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 1400px) {
@@ -665,6 +666,7 @@ html {
     width: 1400px;
     margin: auto;
     min-height: 100vh;
+    overflow-x: hidden;
   }
 }
 
