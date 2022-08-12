@@ -1,6 +1,6 @@
 # Foundation Layout
 
-### [Site link](https://vitb2022.github.io/resp-layout/)
+### [Site link](https://vitb2022.github.io/Foundation-Layout/)
 
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 

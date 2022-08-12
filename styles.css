@@ -478,7 +478,7 @@
 }
 .footer__line {
   border-top: 1px solid #2b292d;
-  width: 100%;
+  min-width: 100%;
   opacity: 0.1;
   margin: 0;
   margin-top: 40px;
@@ -611,8 +611,14 @@
     margin-top: 0;
     margin-right: 29px;
   }
+  .line-desktop {
+    border-top: 1px solid #2b292d;
+    min-width: 100%;
+    opacity: 0.1;
+    margin-top: 13px;
+  }
   .footer__line {
-    margin: 0;
+    display: none;
   }
   .footer-links {
     flex-direction: row;
