@@ -1,11 +1,9 @@
-@import 'variables.scss';
-
 .header {
   display: flex;
   align-items: center;
   min-width: 320px;
   height: 64px;
-  background-color: #fff;
+  background-color: $base-color-white;
   padding-left: 15px;
 
   &__button {

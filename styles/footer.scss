@@ -105,6 +105,27 @@
   }
 }
 
+.social-twitter {
+  display: inline-block;
+  background-image: url(images/social-twitter.png);
+  width: 21px;
+  height: 16px;
+}
+
+.social-fb {
+  display: inline-block;
+  background-image: url(images/social-fb.png);
+  width: 18px;
+  height: 17px;
+}
+
+.social-linkedIn {
+  display: inline-block;
+  background-image: url(images/social-linkedIn.png);
+  width: 18px;
+  height: 17px;
+}
+
 .logo-vertical {
   display: flex;
   flex-direction: column;
