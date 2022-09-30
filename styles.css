@@ -21,6 +21,10 @@
   cursor: pointer;
 }
 
+.headline__action-btn {
+  cursor: pointer;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -107,6 +111,7 @@
   .navigation {
     display: block;
     margin-left: auto;
+    font-size: 18px;
     margin-top: 7px;
     margin-right: 75px;
   }
@@ -284,7 +289,7 @@
 }
 .audience-cards__wrapper:hover {
   background-color: #3141c5;
-  color: color-white;
+  color: #fff;
   box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
@@ -339,6 +344,7 @@
     margin-left: 10px;
     margin-top: 0;
     margin-bottom: 0;
+    cursor: pointer;
   }
   .audience-cards {
     display: flex;
@@ -561,21 +567,21 @@
   margin-left: 0;
 }
 
-.social-twitter {
+.social-icon_twitter {
   display: inline-block;
   background-image: url(images/social-twitter.png);
   width: 21px;
   height: 16px;
 }
 
-.social-fb {
+.social-icon_fb {
   display: inline-block;
   background-image: url(images/social-fb.png);
   width: 18px;
   height: 17px;
 }
 
-.social-linkedIn {
+.social-icon_linkedIn {
   display: inline-block;
   background-image: url(images/social-linkedIn.png);
   width: 18px;
